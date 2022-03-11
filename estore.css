@@ -1,0 +1,163 @@
+body {
+  width: 1000px;
+  height: 2000px;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background-color: #333333;
+  height: 52px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.h1-a {
+  float: left;
+  margin-left: 60px;
+  margin-top: 0px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 48px;
+}
+
+nav {
+  float: right;
+  margin-right: 60px;
+  margin-top: 15px;
+  padding: 0px;
+}
+
+.nav-a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.links {
+  float: left;
+  margin-left: 120px;
+}
+
+.links-a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333333;
+  font-size: 13px;
+}
+
+.input-form {
+  float: right;
+  margin-right: 120px;
+}
+
+.container-art1 {
+  background-color: #bebebead;
+  margin: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.art1 {
+  flex-grow: 1;
+}
+
+.article1-ul {
+  padding-left: 0px;
+}
+
+.article1-p {
+  font-size: 34px;
+}
+
+.article1-ul {
+  line-height: 14px;
+  list-style: none;
+}
+
+.art-head {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.art-list {
+  margin-left: 100px;
+  margin-right: 130px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.li {
+  font-size: 10px;
+  text-align: center;
+}
+
+.art2-head {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.art2-list {
+  margin-left: 80px;
+  margin-right: 110px;
+  height: auto;
+  display: flex;
+  /* background-color: bisque; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.li1 {
+  text-align: center;
+  background-color: #dbf3fa;
+  line-height: 0.8px;
+  border: 2px solid #dbf3fa;
+}
+
+.art3 {
+  margin-top: 40px;
+}
+
+.art3-text {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.l {
+  font-size: 12px;
+  color: #333333;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.footer {
+  background-color: #131a22;
+  margin: 60px;
+  height: 540px;
+}
+
+.footer-list {
+  margin-bottom: 120px;
+  display: flex;
+  align-items: flex-start;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  background-color: #1cf0f0;
+}
